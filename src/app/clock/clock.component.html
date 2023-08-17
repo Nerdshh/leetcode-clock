@@ -4,8 +4,8 @@
     <div class="row justify-content-center align-items-center vh-100">
         <div class="col-12  text-center">
             <p class="cover-text">{{ minute }}:{{ second }}</p>
-            <button class="btn btn-primary btn-lg">Start</button> |
-            <button class="btn btn-success btn-lg">Pause</button>
+            <button class="btn btn-success btn-lg" (click)="countdown()">Start</button> |
+            <a class="btn btn-danger btn-lg" (click)="resetTime()">Reset</a>
         </div>
     </div>
 </div>
